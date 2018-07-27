@@ -1,0 +1,39 @@
+{
+  "name": "typescript-express-starter",
+  "version": "1.0.0",
+  "description": "typescript express starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint && tsc && node dist",
+    "test": "mocha --require ts-node/register 'test/**/*.test.ts'",
+    "lint": "tslint -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J911/typescript-express-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J911/typescript-express-starter/issues"
+  },
+  "homepage": "https://github.com/J911/typescript-express-starter#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.5.3",
+    "@types/supertest": "^2.0.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^2.9.2"
+  }
+}
